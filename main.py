@@ -28,7 +28,7 @@ class Main:
         self.customer_service = CustomerService()
 
         self.root.title("Das Leihhaus")
-        self.root.iconphoto(False, PhotoImage(file="pic/logo-g.png"))
+        self.root.iconphoto(False, PhotoImage(file="pic/logo.png"))
         self.root.geometry("1024x728")
 
         self.access = Access()
